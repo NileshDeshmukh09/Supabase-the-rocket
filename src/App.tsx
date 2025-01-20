@@ -6,6 +6,7 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Wrapper from "./pages/Wrapper";
+import HorizontalPagesLayout from "./pages/HorizontalPagesLayout";
 
 const App: React.FC = () => {
   return (
@@ -26,6 +27,15 @@ const App: React.FC = () => {
           element={
             <Wrapper>
               <Dashboard />
+            </Wrapper>
+          }
+        />
+
+        <Route
+          path="/page-layout"
+          element={
+            <Wrapper>
+              <HorizontalPagesLayout />
             </Wrapper>
           }
         />
