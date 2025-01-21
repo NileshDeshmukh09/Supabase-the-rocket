@@ -1,12 +1,10 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import Home from "./pages/Home";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Wrapper from "./pages/Wrapper";
-import HorizontalPagesLayout from "./pages/HorizontalPagesLayout";
 
 const App: React.FC = () => {
   return (
@@ -31,14 +29,6 @@ const App: React.FC = () => {
           }
         />
 
-        <Route
-          path="/page-layout"
-          element={
-            <Wrapper>
-              <HorizontalPagesLayout />
-            </Wrapper>
-          }
-        />
       </Routes>
     </BrowserRouter>
   );
