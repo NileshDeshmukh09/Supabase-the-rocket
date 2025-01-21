@@ -33,7 +33,7 @@ const Home: React.FC = () => {
       </header>
 
       {/* Main Section */}
-      <main className="w-full max-w-5xl bg-white shadow-lg rounded-xl p-6">
+      <main className="w-full bg-white shadow-lg rounded-xl p-6">
         {/* Sortable List */}
         <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center">
           Sortable Stats Section
